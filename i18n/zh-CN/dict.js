@@ -1,6 +1,9 @@
 module.exports = {
-    experience_type: {
-        "internship": "（实习）"
+    experience_techtype: {
+        "fullstack": "（全栈）",
+        "frontend": "（前端开发）",
+        "backend": "（后端开发）",
+        "both": "（前端&后端开发）"
     },
     skill_type: {
         "frontend": "Web 前端",
@@ -8,7 +11,6 @@ module.exports = {
         "miscellaneous": "其他"
     },
     education_type: {
-        "undergraduate": "（本科）"
     },
     link_type: {
         "zhihu": "知乎",

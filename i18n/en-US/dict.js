@@ -1,6 +1,9 @@
 module.exports = {
-    experience_type: {
-        "internship": "(internship)"
+    experience_techtype: {
+    	"fullstack": "(Full Stack)",
+        "frontend": "(Front End)",
+        "backend": "(Back End)",
+        "both": "(Front End & Back End)"
     },
     skill_type: {
         "frontend": "Frontend Development",
@@ -8,7 +11,6 @@ module.exports = {
         "miscellaneous": "Miscellaneous"
     },
     education_type: {
-        "undergraduate": "(Bachelor's degree)"
     },
     link_type: {
         "zhihu": "Zhihu",

@@ -1,12 +1,12 @@
 {
-  "name": "joyee-resume",
+  "name": "ChaoBin-resume",
   "version": "1.0.0",
   "description": "Read resume data from a JSON file and generate a static web page.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Joyee Cheung <joyeec9h3@gmail.com>",
+  "author": "Chao Bin <chaobin.nexus@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.2",
     "gulp-jade": "^1.0.0",
     "gulp-less": "^3.0.0",

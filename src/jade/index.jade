@@ -6,10 +6,11 @@ block education
     each item in education
       li.timeline-item(class="education-" + item.type)
         h3.timeline-title
+          span.education-degree= item.degree
           time.education-time #{item.start} ~ #{item.end}
         dl.education-description.timeline-content
           dt.education-name= item.name
-          dd.education-major= item.major + education_type[item.type]
+          dd.education-major= item.major
           each honor in item.honor
             dd.education-honor!= highlight(honor)
 
@@ -20,7 +21,18 @@ block language
       +certificate(lang.certificate)
       ul.language-description
         each desc in lang.description
-          li.language-desc-item= desc
+          li.language-desc-item!= highlight(desc)
+
+
+
+
+block skills
+  +section("skills", true)
+    each item in skills
+      li.timeline-item(class="skills-" + item.type)
+        h3.timeline-title
+          span.skills-type= skill_type[item.type]
+        +#{"skills_" + item.type}(item)
 
 
 block experience
@@ -32,15 +44,6 @@ block experience
         dl.experience-description.timeline-content
           +#{"experience_content_" + item.type}(item)
 
-block skills
-  +section("skills", true)
-    each item in skills
-      li.timeline-item(class="skills-" + item.type)
-        h3.timeline-title
-          span.skills-type= skill_type[item.type]
-        +#{"skills_" + item.type}(item)
-
-
 block links
     ul.links
       each link in links
@@ -48,6 +51,4 @@ block links
           a(href=link.url)= link_type[link.type]
 
 block repo
-  p
-    | This resume is generated with Gulp, Less and Jade by 
-    | #[a(href="https://github.com/joyeecheung/resume") Joyee Cheung&#39;s resume generator].
+
