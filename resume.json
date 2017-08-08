@@ -83,7 +83,7 @@
     	"name": "灯塔门户网站",
     	"techtype": "both",
 	    "description": [
-	      "根据 `CMS系统` 业务需求设计 `MySQL` 数据库表",
+	      "根据 `CMS 系统` 业务需求设计 `MySQL` 数据库表",
 	      "使用 `SSM` 框架开发后台管理系统后端功能，并向前端提供 `RESTful API`",
 	      "基于  `Vue` 和 `Ajax` 等技术实现后台页面及数据交互"
 	    ],
@@ -180,7 +180,7 @@
       "summary": "后端工程实践",
       "description": [
         "熟悉面向对象编程 `OOP` 思想和 `MVC` 设计模式",
-        "熟悉 `SQL Server` / `MySQL` 数据库，`Redis` 缓存，并能够根据业务需求设计出良好的数据库",
+        "熟练掌握 `SQL` 语句及其优化，熟悉 `MySQL` / `Redis` 数据库，并能够根据业务需求设计出良好的数据库",
         "能够熟练使用 `CentOS` 等Linux操作系统，熟悉常用命令与配置，有 `Tomcat` 和 `Nginx` 服务器部署经验"
       ]
     }]
