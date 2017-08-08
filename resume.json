@@ -42,8 +42,8 @@
     "start": "2015.09",
     "end": "2018.06",
     "honor": [
-      "2015 - 2016 学年度**一等学业奖学金**",
-      "2016 - 2017 学年度**二等学业奖学金**"
+      "2015 ~ 2016 学年度**一等学业奖学金**",
+      "2016 ~ 2017 学年度**二等学业奖学金**"
     ]
   },{
     "type": "undergraduate",
@@ -53,8 +53,8 @@
     "start": "2011.09",
     "end": "2015.06",
     "honor": [
-      "2011 - 2012 学年度**二等人民奖学金**",
-      "2012 - 2013 学年度**“校级三好学生”**称号"
+      "GPA `3.50` / 4.33，成绩排名专业前十",
+      "2012 ~ 2013 学年度**“校级三好学生”**称号"
     ]
   }],
   "language": [{
@@ -69,9 +69,9 @@
       "score": "467"
     }],
     "description": [
-      "能流畅阅读英文专业书籍、文档及其他资料",
       "能够在英文邮件、GitHub正常交流",
-      "读研期间以第一作者发表 `SCI` 论文一篇，影响因子 `5.651`"
+      "能流畅阅读英文专业书籍、文档及其他资料",
+      "研究生期间以第一作者发表英文 `SCI 论文 1 篇`，影响因子 `IF = 5.651`"
     ]
   }],
   "experience": [{
@@ -80,26 +80,25 @@
     "start": "2015.11",
     "end": "至今",
     "projects": [{
-    	"name": "门户网站后台管理系统",
+    	"name": "灯塔门户网站",
     	"techtype": "both",
 	    "description": [
-	      "根据业务需求设计 `MySQL` 数据库表",
-	      "使用 `SSM` 框架开发后台管理系统后端功能",
-	      "基于 `Bootstrap` 和 `Vue` 等技术实现前端页面及数据交互"
+	      "根据 `CMS系统` 业务需求设计 `MySQL` 数据库表",
+	      "使用 `SSM` 框架开发后台管理系统后端功能，并向前端提供 `RESTful API`",
+	      "基于  `Vue` 和 `Ajax` 等技术实现后台页面及数据交互"
 	    ],
 	    "result": [
-	      "带领团队提高开发效率，保证项目在1个月内上线"
+	      "带领团队提高开发效率，保证项目在一个月内上线"
 	    ],
 	    "stack": ["MySQL", "Bootstrap", "vue", "SSM"],
 	    "compatibility": "IE8+"
     },{
-    	"name": "地理人口洞察",
+    	"name": "城市地理人口洞察",
     	"techtype": "both",
 	    "description": [
-	      "根据业务需求完成 `MySQL` 表和 `Redis` 键值设计",
+	      "根据业务需求完成关系数据库表和 `Redis` 键值设计",
 	      "使用 `SSM` 框架开发后端功能，并向前端提供API",
-	      "基于 `Bootstrap` 和 `jQuery` 等技术实现前端页面及数据交互",
-	      "使用 `百度地图API` 和 `Echarts` 实现地理大数据可视化图表"
+	      "基于 `Bootstrap` 和 `jQuery` 等技术实现前端页面及数据交互，并使用 `百度地图API` 和 `Echarts` 实现地理 `大数据可视化` 图表"
 	    ],
 	    "result": [
 	      "该项目最终按期交付使用，并成为项目组的明星产品"
@@ -117,9 +116,8 @@
     	"name": "门户网站和微信服务号",
     	"techtype": "both",
 	    "description": [
-	      "参与公司官方网站的开发，通过 `CSS3` 实现页面动态效果及 `响应式布局`",
-	      "参与公司微信服务号的开发，负责旧版业务流程的维护和改版",
-	      "负责新版用户界面的原型设计、前端页面和后台业务逻辑的开发"
+	      "参与公司官方网站的开发，通过 `CSS3` 实现页面动态效果及 `响应式布局`，网站兼容主流浏览器",
+	      "参与公司 `微信服务号` 的开发，负责用户界面的原型设计、前端页面和后台业务逻辑的开发"
 	    ],
 	    "result": [
 	      "由于实习期间表现突出，实习结束获得额外现金奖励"
@@ -136,39 +134,22 @@
     "source": "https://github.com/sncer/icb2017",
     "demo": "http://www.chaobin.ren/icb2017/",
     "description": [
-      "完成网站需求分析和数据库及前后台页面设计",
-      "使用 `ThinkPHP` 框架实现会议网站业务功能",
-      "建立微信公众号，并推送文章对网站进行推广"
+      "完成 `需求分析` 和 `原型`、`UI` 以及 `MySQL` 数据库设计",
+      "使用 `ThinkPHP` 框架开发会议网站前后台业务功能"
     ],
     "result": [
 	      "独立完成网站设计、开发、部署、维护、运营等工作"
 	  ],
     "stack": ["jade", "less", "gulp"],
     "compatibility": "IE9+"
-  },{
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "天气科普H5页面",
-    "source": "https://github.com/sncer/H5Weather",
-    "demo": "http://www.chaobin.ren/H5Weather/",
-    "description": [
-      "严格根据设计图完成页面制作，并使用 `Less` 和 `CSS3` 等技术实现页面特效",
-      "通过对网页性能进行优化，大大提高网页加载速度"
-    ],
-    "result": [
-	      "该作品获得“全国高校科普H5制作大赛”`三等奖`"
-	  ],
-    "stack": ["jade", "less", "gulp"],
-    "compatibility": "IE9+"
   }],
+
   "skills": [{
     "type": "frontend",
     "item": [{
       "summary": "`HTML` / `CSS`",
       "description": [
-        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与动画",
-        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，实验项目中能尝试使用新标准"
+        "能够编写语义化的 `HTML`、模块化的 `CSS`，实现较复杂布局与动画，熟悉常用 `HTML5` / `CSS3` 新特性"
       ]
     }, {
       "summary": "`JavaScript`",
@@ -179,8 +160,7 @@
       "summary": "前端工程实践",
       "description": [
         "使用 `Vue` 编写过简单的 CRUD SPA，了解前端 `组件化` 开发及前端 `MVVM` 模型",
-        "熟悉 `jQuery` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
-        "在项目中使用过 `WebPack` 等模块化解决方案 和 `Less` 等预处理工具",
+        "熟悉 `jQuery` / `Bootstrap` 等常见类库的使用、定制与扩展，在项目中使用过 `WebPack` 等模块化解决方案 和 `Less` 等预处理工具",
         "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
       ]
     }]
@@ -189,28 +169,27 @@
     "item": [{
       "summary": "`Java`",
       "description": [
-        "能够熟练使用 `Spring`、`Spring MVC` 和  `MyBatis` 框架搭建Java Web服务"
+        "掌握 `Java` 编程语言，能够熟练使用 `Spring`、`Spring MVC` 和  `MyBatis` 框架搭建Java Web服务"
       ]
     }, {
       "summary": "`PHP`",
       "description": [
-        "能够熟练使用 `ThinkPHP`框架搭建Web服务"
+        "掌握 `PHP` 脚本语言，能够熟练使用 `ThinkPHP`框架"
       ]
     },{
       "summary": "后端工程实践",
       "description": [
-        "掌握 `Java` 和 `PHP`后端开发语言，并熟悉 `MVC` 设计模式",
-        "熟悉 `SQL Server` / `MySQL` 数据库，`Redis` 缓存，并能够设计数据库",
-        "能够熟练使用Ubuntu和CentOS等Linux操作系统，熟悉常用命令与配置，有Tomcat和Nginx部署经验"
+        "熟悉面向对象编程 `OOP` 思想和 `MVC` 设计模式",
+        "熟悉 `SQL Server` / `MySQL` 数据库，`Redis` 缓存，并能够根据业务需求设计出良好的数据库",
+        "能够熟练使用 `CentOS` 等Linux操作系统，熟悉常用命令与配置，有 `Tomcat` 和 `Nginx` 服务器部署经验"
       ]
     }]
   }, {
     "type": "miscellaneous",
     "item": [
-    	"同时掌握前、后端开发技术，具有良好的前、后端整合能力",
-    	"具有产品意识，熟悉`Axure`、`Xmind`等软件使用，能够在开发过程中对产品进行设计和业务上提出改进方案",
-      "能够使用 `Photoshop` 完成页面切图，并具有良好审美能力",
-      "日常使用 `Git`和 `SVN` 与 `HBuilder` / `Eclipse` 进行开发，也乐于尝试新工具"
+      "熟练使用 `PS` 完成页面切图，并具有良好审美能力",
+      "具有产品意识，注重用户体验，遵守编程规范",
+      "日常使用 `Git` 和 `SVN` 与 `HBuilder` / `Eclipse` 进行开发，也乐于尝试新工具"
     ]
   }]
 }
