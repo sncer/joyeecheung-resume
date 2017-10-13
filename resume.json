@@ -4,7 +4,7 @@
   "resume_title": "晁彬-个人简历",
   "name": "晁彬",
   "repo": "https://github.com/sncer/joyeecheung-resume.git",
-  "job_description": ["信息技术与数据技术"],
+  "job_description": ["Web前端研发工程师"],
   "contact": {
   	"phone": "18810462939",
     "email": "chaobin.nexus@gmail.com",
@@ -76,9 +76,28 @@
   }],
   "experience": [{
     "type": "internship",
+    "place": "新浪微博",
+    "start": "2017.9",
+    "end": "至今",
+    "projects": [{
+    	"name": "尤物志大牌任务页面",
+    	"techtype": "frontend",
+	    "description": [
+	      "使用 `React` 框架和 `WebPack` 打包工具构建 `H5` 应用",
+	      "快速学习新技术，掌握 `Flex` 布局和 `组件化` 开发方式"
+	    ],
+	    "result": [
+	      "项目页面两周内完成开发，并且通过测试后上线"
+	    ],
+	    "stack": ["MySQL", "Bootstrap", "vue", "SSM"],
+	    "compatibility": "IE8+"
+    }]
+    
+  },{
+    "type": "internship",
     "place": "中国电信北京研究院",
     "start": "2015.11",
-    "end": "至今",
+    "end": "2017.7",
     "projects": [{
     	"name": "灯塔门户网站",
     	"techtype": "both",
@@ -96,7 +115,7 @@
     	"name": "城市地理人口洞察",
     	"techtype": "both",
 	    "description": [
-	      "根据业务需求完成关系数据库表和 `Redis` 键值设计",
+	      "根据业务需求完成 `MySQL` 表和 `Redis` 键值设计",
 	      "使用 `SSM` 框架开发后端功能，并向前端提供API",
 	      "基于 `Bootstrap` 和 `jQuery` 等技术实现前端页面及数据交互，并使用 `百度地图API` 和 `Echarts` 实现地理 `大数据可视化` 图表"
 	    ],
@@ -116,8 +135,8 @@
     	"name": "门户网站和微信服务号",
     	"techtype": "both",
 	    "description": [
-	      "参与公司官方网站的开发，通过 `CSS3` 实现页面动态效果及 `响应式布局`，网站兼容主流浏览器",
-	      "参与公司 `微信服务号` 的开发，负责用户界面的原型设计、前端页面和后台业务逻辑的开发"
+
+	      "参与公司 `微信服务号` 的开发，负责用户界面的原型设计、前端页面和后台业务逻辑的开发，前端使用  `jQuery` 和 `MUI` 框架，后端使用 `ThinkPHP` 框架"
 	    ],
 	    "result": [
 	      "由于实习期间表现突出，实习结束获得额外现金奖励"
@@ -126,22 +145,6 @@
 	    "compatibility": "IE8+"
     }]
     
-  },{
-    "type": "project",
-    "techtype": "fullstack",
-    "project_type": "personal",
-    "name": "第六届生物炼制国际会议网站",
-    "source": "https://github.com/sncer/icb2017",
-    "demo": "http://icb.chaobin.ren/",
-    "description": [
-      "完成 `需求分析` 和 `原型`、`UI` 以及 `MySQL` 数据库设计",
-      "使用 `ThinkPHP` 框架开发会议网站前后台业务功能"
-    ],
-    "result": [
-	      "独立完成网站设计、开发、部署、维护、运营等工作"
-	  ],
-    "stack": ["jade", "less", "gulp"],
-    "compatibility": "IE9+"
   }],
 
   "skills": [{
@@ -154,14 +157,14 @@
     }, {
       "summary": "`JavaScript`",
       "description": [
-        "掌握 `JavaScript` 及 ES6 新标准，并能在项目中使用"
+        "掌握 `JavaScript` 及 `ES6` 新标准，并能在项目中使用"
       ]
     }, {
       "summary": "前端工程实践",
       "description": [
-        "熟悉 `Vue` 和  `React` 前端框架，了解前端 `组件化` 开发、`WebPack` 打包工具和前端 `MVVM` 模型",
-        "熟悉 `jQuery` 、`Bootstrap` 和 `Echarts` 等常见类库的使用、定制与扩展，以及 `Less` 和 `Sass` 预处理工具",
-        "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
+        "掌握 `React` 前端框架，熟悉 `Vue` 前端框架、 `组件化` 开发、`WebPack` 打包工具和前端 `MVVM` 模型",
+        "熟悉 `jQuery` 、`Bootstrap` 和 `Echarts` 等常见类库的使用、定制与扩展，以及 `Sass` 和 `Less` 预处理工具",
+        "了解基本的前端兼容性处理、性能优化知识与技巧"
       ]
     }]
   }, {
