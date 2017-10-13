@@ -4,7 +4,7 @@
   "resume_title": "晁彬-个人简历",
   "name": "晁彬",
   "repo": "https://github.com/sncer/joyeecheung-resume.git",
-  "job_description": ["前端工程师", "后端工程师"],
+  "job_description": ["信息技术与数据技术"],
   "contact": {
   	"phone": "18810462939",
     "email": "chaobin.nexus@gmail.com",
@@ -42,8 +42,8 @@
     "start": "2015.09",
     "end": "2018.06",
     "honor": [
-      "2015 ~ 2016 学年度**一等学业奖学金**",
-      "2016 ~ 2017 学年度**二等学业奖学金**"
+    	"总 GPA `2.96` / 4.00，学位课 GPA `2.95` / 4.00",
+      "2017 ~ 2018 学年度 **国家奖学金**"
     ]
   },{
     "type": "undergraduate",
@@ -54,7 +54,7 @@
     "end": "2015.06",
     "honor": [
       "GPA `3.50` / 4.33，成绩排名专业前十",
-      "2012 ~ 2013 学年度**“校级三好学生”**称号"
+      "2012 ~ 2013 学年度 **“校级三好学生”** 称号"
     ]
   }],
   "language": [{
@@ -71,7 +71,7 @@
     "description": [
       "能够在英文邮件、GitHub正常交流",
       "能流畅阅读英文专业书籍、文档及其他资料",
-      "研究生期间以第一作者发表英文 `SCI 论文 1 篇`，影响因子 `IF = 5.651`"
+      "研究生期间以第一作者发表英文 `SCI 论文 1 篇`，影响因子 `IF = 5.651`，工程 `一区`，`Top` 期刊"
     ]
   }],
   "experience": [{
@@ -132,7 +132,7 @@
     "project_type": "personal",
     "name": "第六届生物炼制国际会议网站",
     "source": "https://github.com/sncer/icb2017",
-    "demo": "http://www.chaobin.ren/icb2017/",
+    "demo": "http://icb.chaobin.ren/",
     "description": [
       "完成 `需求分析` 和 `原型`、`UI` 以及 `MySQL` 数据库设计",
       "使用 `ThinkPHP` 框架开发会议网站前后台业务功能"
@@ -154,13 +154,13 @@
     }, {
       "summary": "`JavaScript`",
       "description": [
-        "熟悉 `JavaScript` 及 ES6 新标准，并能在项目中使用"
+        "掌握 `JavaScript` 及 ES6 新标准，并能在项目中使用"
       ]
     }, {
       "summary": "前端工程实践",
       "description": [
-        "使用 `Vue` 编写过简单的 CRUD SPA，了解前端 `组件化` 开发及前端 `MVVM` 模型",
-        "熟悉 `jQuery` / `Bootstrap` 等常见类库的使用、定制与扩展，在项目中使用过 `WebPack` 等模块化解决方案 和 `Less` 等预处理工具",
+        "熟悉 `Vue` 和  `React` 前端框架，了解前端 `组件化` 开发、`WebPack` 打包工具和前端 `MVVM` 模型",
+        "熟悉 `jQuery` 、`Bootstrap` 和 `Echarts` 等常见类库的使用、定制与扩展，以及 `Less` 和 `Sass` 预处理工具",
         "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
       ]
     }]
@@ -189,7 +189,7 @@
     "item": [
       "熟练使用 `PS` 完成页面切图，并具有良好审美能力",
       "具有产品意识，注重用户体验，遵守编程规范",
-      "日常使用 `Git` 和 `SVN` 与 `HBuilder` / `Eclipse` 进行开发，也乐于尝试新工具"
+      "日常使用 `Git` 和 `SVN` 与 `Sublime Text` / `Eclipse` 进行开发，也乐于尝试新工具"
     ]
   }]
 }
